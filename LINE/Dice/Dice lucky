@@ -1,0 +1,4 @@
+if（stristr（$ inputStr，'運勢'）！=  false）{
+		$ rplyArr = Array（'超大吉'，'大吉'，'大吉'，'中吉'，'中吉'，'中吉'，'小吉'，'小吉'，'小吉'，'小吉'，'兇'，'兇'，'兇'，'大兇“，'大凶'，'你還是，不要知道比較好'，'這應該不關我的事'）;
+		return buildTextMessage（'運勢喔...我覺得，'。$ rplyArr [Dice（count（$ rplyArr））- 1 ] 。'吧。'）;
+	} 
